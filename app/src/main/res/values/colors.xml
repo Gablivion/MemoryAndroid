@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="NightBlue">#003366</color>
+    <color name="Skin">#FFE0BD</color>
+    <color name="DarkBlack">#000000</color>
+    <color name="Whity">#FFFFFF</color>
+    <color name="Mali">#FF5555</color>
+    <color name="Tama">#558855</color>
+</resources>

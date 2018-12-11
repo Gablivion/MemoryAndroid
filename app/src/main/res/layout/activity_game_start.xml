@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameStart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Rights"/>
+
+            <EditText
+                android:id="@+id/tamaTxt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="0"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/timer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:inputType="none"
+            android:focusable="false"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Wrongs"/>
+
+            <EditText
+                android:id="@+id/maliTxt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:text="0"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn41"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn32"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="guess"
+            android:background="@drawable/istylez"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn42"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn43"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn24"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn34"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+
+        <Button
+            android:id="@+id/btn44"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/istylez"
+            android:onClick="guess"
+            android:text="\???"
+            android:textColor="@color/Whity" />
+    </LinearLayout>
+
+</LinearLayout>
